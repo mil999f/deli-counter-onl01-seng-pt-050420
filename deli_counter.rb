@@ -18,7 +18,6 @@ end
 
 def now_serving(array)
   if array.length == 0
-    "if deli.empty"
     puts "There is nobody waiting to be served!" 
   else 
     puts "Currently serving #{array[0]}."
