@@ -1,7 +1,7 @@
 def line(cust)
   serving = []
   if cust.size == 0 
-    puts "The ling is currently empty."
+    puts "The line is currently empty."
   elsif cust.size >= 1 
   cust.each_with_index do |cust, index|
     serving << "#{index +1}. #{cust}"
