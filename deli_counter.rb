@@ -8,6 +8,7 @@ def line(cust)
     puts "The line is currently: #{serving.join(' ')}"
     end
   end
+end
 
 def take_a_number(array, name)
   array.push(name)
