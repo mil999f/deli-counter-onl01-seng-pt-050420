@@ -1,4 +1,5 @@
-def line
+def line(cust)
+  line = []
 end
 
 def take_a_number(array, name)
