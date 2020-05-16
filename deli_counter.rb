@@ -3,7 +3,10 @@ def line(cust)
   if cust.size == 0 
     puts "The ling is currently empty."
   elsif customers.size >= 1 
-  cust.each_with_index do |cust|end
+  cust.each_with_index do |cust, index|
+    serving << "#{index +1}. #{cust}"
+    puts "The line is currently: #{serving.join(' ')}"
+    end
 
 def take_a_number(array, name)
   array.push(name)
